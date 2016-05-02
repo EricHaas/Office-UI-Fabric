@@ -1,0 +1,40 @@
+{
+  "name": "Info",
+  "notes": "A component for displaying stuff",
+  "description:": "A component for displaying errors to a user via a top-of-the-screen message surface.",
+  "template": "Infobar.html",
+  "wrapBranches": true,
+  "class": "ms-Info",
+  "dependencies": [
+    "Link"
+  ],
+  "fileOrder": [
+    "Infobar.html",
+    "Infobar.Alert.html",
+    "Infobar.Error.html",
+    "Infobar.Success.html",
+    "Infobar.Remove.html"
+  ],
+  "branches": [
+    {
+      "name": "Info",
+      "class": "info"
+    },
+    {
+      "name": "Alert",
+      "class": "ms-Info--alert"
+    },
+    {
+      "name": "Error",
+      "class": "ms-Info--error"
+    },
+    {
+      "name": "Success",
+      "class": "ms-Info--success"
+    },
+    {
+      "name": "Remove",
+      "class": "ms-Info--remove"
+    }
+  ]
+}
