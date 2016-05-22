@@ -173,7 +173,7 @@ dist/components/Button/Button.html
 dist/components/TextField/TextField.html
 ```
 
-First, copy all the contents from TextField.html and paste it inside of the first column `<div class="ms-Grid-col"></div> <!-- First Column -->`, then remove the `<label class="ms-Label">Name</label>` element and `<span class="ms-TextField-description">This should be your first and last name.</span>`.  At this point your second column HTML should look like this:
+First, copy all the contents from TextField.html and paste it inside of the first column `<div class="ms-Grid-col"></div> <!-- First Column -->`, then remove the `<label class="ms-Label">Name</label>` element and `<span class="ms-TextField-description">This should be your first and last name.</span>`.  At this point your first column HTML should look like this:
 
 ```html
 <div class="ms-Grid-col ms-u-sm6 ms-u-md8 ms-u-lg10">
